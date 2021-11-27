@@ -1,3 +1,7 @@
+.PHONY: checks
+.SILENT: checks
+checks: linters gitleaks
+
 .PHONY: linters
 .SILENT: linters
 linters:
