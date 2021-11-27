@@ -1,6 +1,12 @@
 # Basic project template
 
-Template I use for all sorts of projects.
-It includes:
+Template I use for all sorts of projects. It includes:
 
-- Linters
+- [super-linter](https://github.com/github/super-linter)
+  - Locally:
+    ```shell script
+    make linters
+    ```
+  - [GitHub Action](.github/workflows/linters.yaml)
+- [GitLeaks](https://github.com/zricethezav/gitleaks)
+  - [GitHub Action](.github/workflows/gitleaks.yaml)
