@@ -1,4 +1,6 @@
+# Checks
 /super-linter.log
+/.gitleaks.toml
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,zsh,jetbrains+all,visualstudiocode,git
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,zsh,jetbrains+all,visualstudiocode,git

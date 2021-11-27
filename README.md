@@ -9,4 +9,8 @@ Template I use for all sorts of projects. It includes:
     ```
   - [GitHub Action](.github/workflows/linters.yaml)
 - [GitLeaks](https://github.com/zricethezav/gitleaks)
+  - Locally:
+    ```shell script
+    make gitleaks
+    ```
   - [GitHub Action](.github/workflows/gitleaks.yaml)
